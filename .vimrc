@@ -1,29 +1,19 @@
-set nocompatible
+call plug#begin('~/.vim/plugged')
 
-" ファイル形式の検出を無効にする  
-filetype off  
+Plug 'Shougo/unite.vim'
+Plug 'Shougo/neomru.vim'
+Plug 'Shougo/vimproc.vim', {'do' : 'make'}
+Plug 'Shougo/neosnippet'
+Plug 'Shougo/neosnippet-snippets'
+Plug 'Shougo/vimfiler'
+Plug 'tpope/vim-rails'
+Plug 'Shougo/neocomplete.vim'
+Plug 'w0ng/vim-hybrid'
+Plug 'jpo/vim-railscasts-theme'
 
-set runtimepath+=~/.vim/dein/repos/github.com/Shougo/dein.vim
+" Initialize plugin system
+call plug#end()
 
-call dein#begin(expand('~/.vim/dein'))
-
-call dein#add('Shougo/dein.vim')
-call dein#add('Shougo/unite.vim')
-call dein#add('Shougo/neomru.vim')
-call dein#add('Shougo/vimproc.vim', {'build' : 'make'})
-call dein#add('Shougo/neosnippet')
-call dein#add('Shougo/neosnippet-snippets')
-call dein#add('Shougo/vimfiler')
-call dein#add('Shougo/neocomplete.vim')
-call dein#add('tpope/vim-rails')
-call dein#add('w0ng/vim-hybrid')
-call dein#add('kchmck/vim-coffee-script')
-call dein#add('jpo/vim-railscasts-theme')
-call dein#add('posva/vim-vue')
-
-call dein#end()
-
-" colorscheme hybrid
 colorscheme railscasts
 
 "####################### 
