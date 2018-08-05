@@ -1,0 +1,1 @@
+-d postgresql --skip-bundle --skip-javascript --skip-keeps --skip-spring --skip-action-cable
