@@ -3,13 +3,15 @@ call plug#begin('~/.vim/plugged')
 Plug 'Shougo/unite.vim'
 Plug 'Shougo/neomru.vim'
 Plug 'Shougo/vimfiler'
-Plug 'jpo/vim-railscasts-theme'
+Plug 'posva/vim-vue'
+Plug 'w0ng/vim-hybrid'
 
 call plug#end()
 
 filetype plugin off
 
-colorscheme railscasts
+set background=dark
+colorscheme hybrid
 
 "#######################
 " 表示系
