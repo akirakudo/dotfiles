@@ -4,8 +4,9 @@ export PATH="/usr/local/Cellar/mysql/5.6.27/bin:$PATH"
 export PATH="/usr/local/Cellar/git/2.11.1/bin:$PATH"
 export PATH="/usr/local/Cellar/imagemagick@6/6.9.8-10/bin:$PATH"
 export PATH="/usr/local/bin:$PATH"
-export PATH="$HOME/.nodebrew:$PATH"
-export PATH="$HOME/.nodebrew/current/bin:$PATH"
+export PATH=/usr/local/var/nodebrew/current/bin:$PATH
+export PATH=$HOME/.nodebrew/current/bin:$PATH
+export NODEBREW_ROOT=/usr/local/var/nodebrew
 export PATH="$HOME/.rbenv/bin:$PATH" 
 eval "$(rbenv init - zsh)"
 export PYENV_ROOT="$HOME/.pyenv"
