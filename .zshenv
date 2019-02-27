@@ -24,3 +24,7 @@ export PKG_CONFIG_PATH="/usr/local/Cellar/imagemagick@6/6.9.8-10/lib/pkgconfig/"
 
 eval "$(direnv hook zsh)"
 export PATH="/usr/local/opt/postgresql@9.6/bin:$PATH"
+
+# imagemagick@6 for install rmagick
+export PATH="/usr/local/opt/imagemagick@6/bin:$PATH"
+export PKG_CONFIG_PATH="/usr/local/opt/imagemagick@6/lib/pkgconfig"
