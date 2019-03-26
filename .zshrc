@@ -45,3 +45,6 @@ alias dc='docker-compose'
 
 # vim
 alias vf='vim +VimFiler'
+
+# postgres
+alias pgstart='postgres -D /usr/local/var/postgres'
