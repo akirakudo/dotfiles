@@ -14,12 +14,6 @@ export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 export HISTSIZE=1000
 
-# The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/akira_kudo/Work/GoogleCloud/natural-language-sample/google-cloud-sdk/path.zsh.inc' ]; then source '/Users/akira_kudo/Work/GoogleCloud/natural-language-sample/google-cloud-sdk/path.zsh.inc'; fi
-
-# The next line enables shell command completion for gcloud.
-if [ -f '/Users/akira_kudo/Work/GoogleCloud/natural-language-sample/google-cloud-sdk/completion.zsh.inc' ]; then source '/Users/akira_kudo/Work/GoogleCloud/natural-language-sample/google-cloud-sdk/completion.zsh.inc'; fi
-
 export PKG_CONFIG_PATH="/usr/local/Cellar/imagemagick@6/6.9.8-10/lib/pkgconfig/"
 
 eval "$(direnv hook zsh)"
@@ -28,3 +22,9 @@ export PATH="/usr/local/opt/postgresql@9.6/bin:$PATH"
 # imagemagick@6 for install rmagick
 export PATH="/usr/local/opt/imagemagick@6/bin:$PATH"
 export PKG_CONFIG_PATH="/usr/local/opt/imagemagick@6/lib/pkgconfig"
+
+export GOENV_ROOT="$HOME/.goenv"
+export PATH="$GOENV_ROOT/bin:$PATH"
+eval "$(goenv init -)"
+export PATH="$GOROOT/bin:$PATH"
+export PATH="$PATH:$GOPATH/bin"
