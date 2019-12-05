@@ -5,6 +5,7 @@ Plug 'Shougo/neomru.vim'
 Plug 'Shougo/vimfiler'
 Plug 'posva/vim-vue'
 Plug 'w0ng/vim-hybrid'
+Plug 'leafgarland/typescript-vim'
 
 call plug#end()
 
