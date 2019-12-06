@@ -6,6 +6,7 @@ Plug 'Shougo/vimfiler'
 Plug 'posva/vim-vue'
 Plug 'w0ng/vim-hybrid'
 Plug 'leafgarland/typescript-vim'
+Plug 'digitaltoad/vim-pug'
 
 call plug#end()
 
