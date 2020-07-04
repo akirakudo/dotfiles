@@ -7,6 +7,7 @@ Plug 'posva/vim-vue'
 Plug 'w0ng/vim-hybrid'
 Plug 'leafgarland/typescript-vim'
 Plug 'digitaltoad/vim-pug'
+Plug 'slim-template/vim-slim'
 
 call plug#end()
 
